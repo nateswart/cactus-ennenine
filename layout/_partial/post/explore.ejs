@@ -1,0 +1,13 @@
+<% if (page.title == "explore") { %>
+<div id="archive">
+    <h2><%= __('categories') %></h2>
+    <div class="widget">
+      <%- list_categories({show_count: false}) %>
+    </div>
+
+    <h2><%= __('tags') %> </h2>
+    <div class="widget tagcloud">
+      <%- tagcloud() %>
+    </div>
+</div>
+<% } %>

@@ -1,6 +1,11 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <span class="h1"><%= page.title %></span>
+  <% if (page.title == 'explore') { %>
+  <span class="h1"><i class="fa fa-compass"></i> <%= page.title %></span>
+  <% } else { %>
+  <span class="h1"><i class="fa fa-file"></i> <%= page.title %></span>
+  <% } %>
   <%- partial('_partial/post/gallery') %>
+  <%- partial('_partial/post/explore') %>
   <div class="content" itemprop="articleBody">
     <%- page.content %>
   </div>
