@@ -146,7 +146,7 @@ where `SITENAME` is the name you gave your site on Disqus.
 
 ### Code Highlighting
 
-Pick one of [the available colorschemes](https://github.com/gabithume/cactus-light/tree/master/source/css/_highlight) and add it to the theme's `_config.yml`:
+Pick one of [the available colorschemes](https://github.com/nateswart/cactus-ennenine/tree/master/source/css/_highlight) and add it to the theme's `_config.yml`:
 
   ```
   customize:
