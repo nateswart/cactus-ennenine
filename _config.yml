@@ -35,6 +35,7 @@ customize:
     show_all_posts: false
     post_count: 5
     highlight: monokai
+    menu_visible_default: false
 
 # RSS
 rss: false
