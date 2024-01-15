@@ -58,7 +58,7 @@ Setup the navigation menu in the theme's `_config.yml`:
     Home: /
     About: /about/
     Writing: /archives/
-    Projects: http://github.com/[your_username]
+    Projects: http://github.com/your_username
     LINK_NAME: URL
   ```
 
