@@ -1,10 +1,10 @@
-# Cactus Light
+# Cactus Ennenine
 
-A responsive, light and simple [Hexo](http://hexo.io) theme for a personal website. Based on the original [Cactus Dark](https://github.com/probberechts/cactus-dark) theme by [Pieter Robberechts](https://github.com/probberechts).
+A responsive, light and simple [Hexo](http://hexo.io) theme for a personal website. Based on the original [Cactus Dark](https://github.com/probberechts/cactus-dark) theme by [Pieter Robberechts](https://github.com/probberechts), forked from [Cactus Light](https://github.com/GabiThume/cactus-light) for customizations.
 
-:cactus: [Demo](http://gabithu.me)
+:cactus: [Demo]() - coming ...
 
-![cactus-light](https://cloud.githubusercontent.com/assets/2175271/19885143/62e9269c-a01d-11e6-8e26-e36a36201d88.png)
+![cactus-light]()
 
 ## Summary
 
@@ -34,7 +34,7 @@ A responsive, light and simple [Hexo](http://hexo.io) theme for a personal websi
 1. In the `root` directory:
 
     ```git
-    $ git clone https://github.com/gabithume/cactus-light.git themes/cactus-light
+    $ git clone https://github.com/nateswart/cactus-ennenine.git themes/cactus-ennenine
     $ npm install hexo-pagination --save
     ```
 
@@ -42,7 +42,7 @@ A responsive, light and simple [Hexo](http://hexo.io) theme for a personal websi
 
     ```yml
     # theme: landscape
-    theme: cactus-light
+    theme: cactus-ennenine
     ```
 
 3. Run: `hexo generate` and `hexo server`
@@ -58,7 +58,7 @@ Setup the navigation menu in the theme's `_config.yml`:
     Home: /
     About: /about/
     Writing: /archives/
-    Projects: http://github.com/gabithume
+    Projects: http://github.com/[your_username]
     LINK_NAME: URL
   ```
 
@@ -107,8 +107,8 @@ Cactus Light can automatically add links to your social media accounts. Therefor
   ```
   customize:
     social_links:
-      github: your-github-url
-      twitter: your-twitter-url
+      github: your_github_url
+      twitter: your_twitter_url
       NAME: your-NAME-url
   ```
 

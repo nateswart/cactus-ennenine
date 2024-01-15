@@ -2,9 +2,9 @@ nav:
   Home: /
   About: /about/
   Writing: /archives/
-  Projects: http://github.com/gabithume
+  Projects: http://github.com/your_username
 
-projects_url: http://github.com/gabithume
+projects_url: http://github.com/your_username
 
 customize:
     gravatar:
@@ -27,7 +27,7 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: http://github.com/gabithume/cactus-light
+        github: http://github.com/your_username
         twitter: /
         facebook: /
         linkedin: /
@@ -41,7 +41,7 @@ rss: false
 # Plugins
 plugins:
     disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-86660611-1 # enter the tracking ID for your Google Analytics
+    google_analytics: # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
 miscellaneous:
