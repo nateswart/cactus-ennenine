@@ -26,6 +26,7 @@ customize:
       apple:
         url: /images/apple-touch-icon.png
         gravator: false
+    show_social: true
     social_links:
         github: http://github.com/your_username
         twitter: /
