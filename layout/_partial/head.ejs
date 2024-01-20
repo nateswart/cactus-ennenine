@@ -46,4 +46,8 @@
     <% if (theme.rss) { %>
       <link rel="alternate" href="<%= url_for(theme.rss) %>" title="<%= config.title %>" type="application/atom+xml" />
     <% } %>
+
+    <% if (theme.plausible_analytics) { %>
+      <script defer data-domain="<%= theme.plausible_analytics.domain %>" src="<%= theme.plausible_analytics.src %>"></script>
+    <% } %>
 </head>
