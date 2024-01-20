@@ -77,6 +77,20 @@ body
     text-decoration: none
     background: none
 
+
+  h1 a::before,
+  .h1 a::before,
+  h2 a::before,
+  h3 a::before,
+  h4 a::before,
+  h5 a::before,
+  h6 a::before
+    content: ' '
+    display: block
+    height:      75px
+    margin-top: -75px
+    visibility: hidden
+
   h1 a:hover,
   .h1 a:hover,
   h2 a:hover,
