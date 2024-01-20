@@ -30,36 +30,11 @@
     border-radius: 5px
     -webkit-filter: grayscale(100%)
     filter: grayscale(100%)
+  
+  #title p
+    margin-top: 0px
+    padding-top: 0px
 
-  #nav
-    letter-spacing: 0.01em
-    font-size: .8rem
-    font-style: normal
-    font-weight: 200
-    text-transform: lowercase;
-    color: $color-accent
-    ul
-      list-style-type: none
-      margin: 0
-      padding: 0
-      line-height: 15px
-      a
-        margin-right: 15px
-        color: color-accent
-      a:hover
-          underline(5px, $color-accent)
-      li
-        display: inline-block
-        vertical-align: middle
-        margin-right: 15px
-        border-right: 1px dotted $color-accent
-      .icon
-        display: none
-      li:last-child
-        border-right: 0
-        margin-right: 0
-        a
-          margin-right: 0
 
 #header:hover
   #logo
@@ -70,22 +45,5 @@
   #header #title
     padding-top: (logo-height / 2) - 16
     padding-bottom: (logo-height / 2) - 16
-  #header #nav
-    ul
-      a:hover
-        background: none
-      li
-        display: none
-        border-right: 0
-      li.icon
-        display: inline-block
-        position: absolute
-        top: 55px
-        right: 1rem
-    ul.responsive
-      li
-        display: block;
-    li:not(:first-child)
-        padding-top: 1rem
-        padding-left: logo-width + 20px
-        font-size: 1rem
+  #title p
+    padding-top: 0px
