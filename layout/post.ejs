@@ -11,6 +11,11 @@
   </header>
   <%- partial('_partial/post/gallery') %>
   <div class="content" itemprop="articleBody">
+    <% if (page.bookcover) { %>
+    <div class="bookcover">
+      <%- image_tag(url_for(page.path) + page.bookcover) %>
+    </div>
+    <% } %>
     <%- page.content %>
   </div>
 </article>
