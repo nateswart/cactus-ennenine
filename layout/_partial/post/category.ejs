@@ -1,0 +1,6 @@
+<% if (page.categories && page.categories) { %>
+    <div class="article-category">
+        <i class="fa fa-folder-open"></i>
+        <%- list_tags(page.categories, { show_count: false, style: 'link' }) %>
+    </div>
+<% } %>
